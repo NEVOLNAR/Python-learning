@@ -1,3 +1,10 @@
-a = 'Hello word'
+def plus(a, b):
+    return a + b
 
-print(a)
+
+r = 'result ='
+
+a = int(input())
+b = int(input())
+
+print(r, plus(a, b))
