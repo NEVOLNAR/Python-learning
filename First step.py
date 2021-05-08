@@ -1,10 +1,13 @@
 def plus(a, b):
     return a + b
 
+def minus(a, b):
+    return a - b
 
-r = 'result ='
+rP = 'result plus ='
+rM = 'result minus ='
 
 a = int(input())
 b = int(input())
 
-print(r, plus(a, b))
+print(rP, plus(a, b), 'and', rM, minus(a, b))
